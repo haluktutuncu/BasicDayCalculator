@@ -19,7 +19,7 @@
 
 button {
   padding: 15px 20px;
-  background-color: rgb(184, 216, 25);
+  background-color: rgb(190, 221, 33);
   border: 1px solid;
   border-radius: 8px;
   margin: 13px;
@@ -36,13 +36,36 @@ p {
   font-size: 25px;
 }
 
-div {
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .main {
   margin-top: 30px;
   font-size: 40px;
+}
+.date {
+  width: 500px;
+  height: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.range {
+  margin-top: 40px;
+}
+
+.text-box {
+  border-style: groove;
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+
+.text-box:valid {
+  font-size: 15px;
 }
